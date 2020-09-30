@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1em;
+    text-align: center;
+    background-color: teal;
+    transition-property: height;
+    transition-duration: 0.3s;
+
+}
+
+nav:hover {
+    height: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    color: teal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color:#4E647B;
+    height: 20em; 
+}
+
+.titre{
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+.para {
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+.button {
+    padding: 2%;
+}
+
+button {
+    background-color: coral;
+    color: white;
+    height: 5em;
+    border-radius: 1em;
+    padding:5%;
+}
+
+main h2{
+    text-align: center;
+    padding: 1%;
+    font-size: 3em;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+     
+
+    
+}
+
+
+.flex img {
+    height: 10rem;
+}
+footer {
+    background-color: rgb(90, 112, 153);
+}
+h3 {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    height: 7em;
+
+}
+
+footer .footerFlex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.footerFlex {
+    padding: 0.3em;
+}
+.footerFlex p{
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.footerFlex a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+.sondages {
+    background-image:url("../img/background-sondages-.jpg");
+}
+
+img {
+    border-radius: 1em;
+}
+
+.colum {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+
+    padding: 1%;
+   
+    
+    
+}
+main a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.colum img {
+    padding: 3%;
+}
+.block {
+    display :flex;
+    justify-content: space-around;
+    background-color: rgba(17, 146, 146, 0.788);
+    width: 100%;
+    padding: 4em;
+    border-radius: 1em;
+    margin-bottom: 2%;
+
+}
+.block a{
+    padding: 1em;
+}
+
+
+@media screen and (max-width: 1025px) {
+
+    .block{
+        flex-flow: column wrap;
+        align-content: center;
+        text-align: center;
+        padding: 0.5em;
+    }
+    footer {
+        height: 15em;
+        
+    }
+    nav {
+        background-color: rgb(49, 49, 49);
+    }
+    nav a {
+        font-size: 0.7em;;
+    }
+
+    img {
+        width: 256px;
+    }
+    .sondages {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+img:hover {
+    height: 150px;
+}
